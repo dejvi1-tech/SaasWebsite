@@ -1,0 +1,564 @@
+{
+  "common": {
+    "appName": "FlowPilot",
+    "loading": "Wird geladen...",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "add": "Hinzufügen",
+    "search": "Suchen",
+    "searchPlaceholder": "Kunden, Rechnungen, Tickets suchen...",
+    "filter": "Filtern",
+    "export": "Exportieren",
+    "import": "Importieren",
+    "close": "Schließen",
+    "confirm": "Bestätigen",
+    "back": "Zurück",
+    "next": "Weiter",
+    "submit": "Absenden",
+    "reset": "Zurücksetzen",
+    "actions": "Aktionen",
+    "status": "Status",
+    "name": "Name",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "date": "Datum",
+    "amount": "Betrag",
+    "description": "Beschreibung",
+    "notes": "Notizen",
+    "createdAt": "Erstellt am",
+    "updatedAt": "Aktualisiert am",
+    "yes": "Ja",
+    "no": "Nein",
+    "all": "Alle",
+    "none": "Keine",
+    "select": "Auswählen",
+    "optional": "Optional",
+    "required": "Pflichtfeld",
+    "rows": "Zeilen",
+    "page": "Seite",
+    "of": "von",
+    "showing": "Zeige",
+    "results": "Ergebnisse",
+    "noResults": "Keine Ergebnisse gefunden",
+    "tryAgain": "Erneut versuchen",
+    "viewAll": "Alle anzeigen",
+    "viewDetails": "Details anzeigen",
+    "moreOptions": "Weitere Optionen",
+    "copy": "Kopieren",
+    "download": "Herunterladen",
+    "upload": "Hochladen",
+    "preview": "Vorschau",
+    "manage": "Verwalten",
+    "active": "Aktiv",
+    "inactive": "Inaktiv",
+    "enabled": "Aktiviert",
+    "disabled": "Deaktiviert",
+    "total": "Gesamt"
+  },
+  "nav": {
+    "dashboard": "Übersicht",
+    "customers": "Kunden",
+    "subscriptions": "Abonnements",
+    "invoices": "Rechnungen",
+    "team": "Team",
+    "analytics": "Analytik",
+    "tasks": "Aufgaben",
+    "tickets": "Tickets",
+    "settings": "Einstellungen"
+  },
+  "auth": {
+    "signIn": "Anmelden",
+    "signUp": "Registrieren",
+    "signOut": "Abmelden",
+    "forgotPassword": "Passwort vergessen",
+    "resetPassword": "Passwort zurücksetzen",
+    "email": "E-Mail-Adresse",
+    "password": "Passwort",
+    "confirmPassword": "Passwort bestätigen",
+    "fullName": "Vollständiger Name",
+    "noAccount": "Noch kein Konto?",
+    "hasAccount": "Bereits ein Konto?",
+    "rememberMe": "Angemeldet bleiben",
+    "forgotPasswordLink": "Passwort vergessen?",
+    "signInWith": "Anmelden mit",
+    "orContinueWith": "Oder weiter mit",
+    "createAccount": "Konto erstellen",
+    "backToSignIn": "Zurück zur Anmeldung",
+    "resetLinkSent": "Link zum Zurücksetzen wurde gesendet",
+    "checkEmail": "Überprüfen Sie Ihre E-Mails",
+    "resetLinkDesc": "Wir haben Ihnen einen Link zum Zurücksetzen des Passworts gesendet.",
+    "welcomeBack": "Willkommen zurück",
+    "signInSubtitle": "Melden Sie sich bei Ihrem FlowPilot-Konto an",
+    "signUpSubtitle": "Erstellen Sie Ihr FlowPilot-Konto",
+    "forgotSubtitle": "Geben Sie Ihre E-Mail-Adresse ein, um einen Reset-Link zu erhalten",
+    "agreeToTerms": "Ich stimme den",
+    "termsOfService": "Nutzungsbedingungen",
+    "and": "und",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "agree": "zu",
+    "errors": {
+      "invalidEmail": "Ungültige E-Mail-Adresse",
+      "passwordTooShort": "Passwort muss mindestens 8 Zeichen lang sein",
+      "passwordMismatch": "Passwörter stimmen nicht überein",
+      "invalidCredentials": "Ungültige Anmeldedaten",
+      "emailRequired": "E-Mail-Adresse ist erforderlich",
+      "passwordRequired": "Passwort ist erforderlich",
+      "nameRequired": "Name ist erforderlich"
+    }
+  },
+  "dashboard": {
+    "title": "Übersicht",
+    "subtitle": "Willkommen bei FlowPilot",
+    "kpi": {
+      "totalRevenue": "Gesamtumsatz",
+      "activeUsers": "Aktive Nutzer",
+      "monthlyGrowth": "Monatliches Wachstum",
+      "churnRate": "Abwanderungsrate",
+      "conversionRate": "Konversionsrate",
+      "mrr": "Monatlich wiederkehrender Umsatz",
+      "arr": "Jährlich wiederkehrender Umsatz",
+      "activeSubscriptions": "Aktive Abonnements"
+    },
+    "charts": {
+      "revenueOverview": "Umsatzübersicht",
+      "userGrowth": "Nutzerwachstum",
+      "subscriptionBreakdown": "Abonnement-Verteilung",
+      "revenueVsTarget": "Umsatz vs. Ziel",
+      "last7Days": "Letzte 7 Tage",
+      "last30Days": "Letzte 30 Tage",
+      "last90Days": "Letzte 90 Tage",
+      "lastYear": "Letztes Jahr"
+    },
+    "recentActivity": "Letzte Aktivitäten",
+    "topCustomers": "Top-Kunden",
+    "quickActions": "Schnellaktionen",
+    "activity": {
+      "customerCreated": "Neuer Kunde: {name}",
+      "invoicePaid": "Rechnung bezahlt: {number}",
+      "subscriptionCreated": "Abo erstellt: {plan}",
+      "ticketCreated": "Ticket: {title}",
+      "taskCompleted": "Aufgabe erledigt: {title}"
+    },
+    "notifications": {
+      "newCustomer": "Neuer Kunde hinzugefügt",
+      "newCustomerMsg": "Markus Weber hat sich registriert",
+      "paymentReceived": "Zahlung eingegangen",
+      "paymentReceivedMsg": "Rechnung INV-2026-0042 bezahlt — €299",
+      "ticketAnswered": "Ticket #1024 beantwortet",
+      "ticketAnsweredMsg": "Support-Anfrage von Anna Schmidt"
+    }
+  },
+  "customers": {
+    "title": "Kunden",
+    "subtitle": "Verwalten Sie Ihre Kundenbeziehungen",
+    "addCustomer": "Kunde hinzufügen",
+    "editCustomer": "Kunde bearbeiten",
+    "deleteCustomer": "Kunde löschen",
+    "customerDetails": "Kundendetails",
+    "noCustomers": "Keine Kunden gefunden",
+    "noCustomersDesc": "Fügen Sie Ihren ersten Kunden hinzu, um loszulegen.",
+    "table": {
+      "name": "Name",
+      "email": "E-Mail",
+      "company": "Unternehmen",
+      "plan": "Plan",
+      "status": "Status",
+      "mrr": "MRR",
+      "joinDate": "Beitrittsdatum",
+      "lastActivity": "Letzte Aktivität"
+    },
+    "status": {
+      "active": "Aktiv",
+      "inactive": "Inaktiv",
+      "churned": "Abgewandert",
+      "trial": "Testphase"
+    },
+    "form": {
+      "name": "Vollständiger Name",
+      "namePlaceholder": "Max Mustermann",
+      "email": "E-Mail-Adresse",
+      "emailPlaceholder": "max@beispiel.de",
+      "company": "Unternehmen",
+      "companyPlaceholder": "Mustermann GmbH",
+      "phone": "Telefonnummer",
+      "phonePlaceholder": "+49 123 456789",
+      "status": "Status",
+      "plan": "Plan",
+      "notes": "Notizen",
+      "notesPlaceholder": "Zusätzliche Informationen...",
+      "selectPlan": "Plan wählen",
+      "editDescription": "Kundendaten bearbeiten und speichern.",
+      "addDescription": "Neuen Kunden zum System hinzufügen.",
+      "errors": {
+        "nameRequired": "Name ist erforderlich",
+        "emailRequired": "E-Mail ist erforderlich",
+        "emailInvalid": "Ungültige E-Mail-Adresse"
+      }
+    },
+    "deleteConfirm": {
+      "title": "Kunden löschen?",
+      "description": "Diese Aktion kann nicht rückgängig gemacht werden. Der Kunde und alle zugehörigen Daten werden dauerhaft gelöscht."
+    }
+  },
+  "subscriptions": {
+    "title": "Abonnements",
+    "subtitle": "Verwalten Sie Pläne und Abrechnungen",
+    "activeSubscriptions": "Aktive Abonnements",
+    "trialUsers": "Testnutzer",
+    "canceledSubscriptions": "Stornierte Abonnements",
+    "totalMRR": "Gesamter MRR",
+    "renewal": "Verlängerung",
+    "perMonth": "/Mo",
+    "table": {
+      "customer": "Kunde",
+      "plan": "Plan",
+      "status": "Status",
+      "amount": "Betrag",
+      "renewalDate": "Verlängerungsdatum",
+      "startDate": "Startdatum"
+    },
+    "status": {
+      "active": "Aktiv",
+      "trialing": "Testphase",
+      "canceled": "Storniert",
+      "past_due": "Überfällig",
+      "paused": "Pausiert"
+    },
+    "plans": {
+      "starter": "Starter",
+      "professional": "Professional",
+      "enterprise": "Enterprise",
+      "custom": "Individuell"
+    },
+    "upgrade": "Upgrade",
+    "downgrade": "Downgrade",
+    "cancel": "Abonnement kündigen",
+    "reactivate": "Reaktivieren",
+    "noSubscriptions": "Keine Abonnements für diesen Kunden.",
+    "noInvoices": "Keine Rechnungen für diesen Kunden."
+  },
+  "invoices": {
+    "title": "Rechnungen",
+    "subtitle": "Verwalten Sie Rechnungen und Zahlungen",
+    "createInvoice": "Rechnung erstellen",
+    "totalRevenue": "Gesamtumsatz",
+    "pendingAmount": "Ausstehender Betrag",
+    "overdueAmount": "Überfälliger Betrag",
+    "paidThisMonth": "Diesen Monat bezahlt",
+    "table": {
+      "invoiceNumber": "Rechnungsnummer",
+      "customer": "Kunde",
+      "status": "Status",
+      "amount": "Betrag",
+      "dueDate": "Fälligkeitsdatum",
+      "issuedDate": "Ausstellungsdatum"
+    },
+    "status": {
+      "paid": "Bezahlt",
+      "pending": "Ausstehend",
+      "overdue": "Überfällig",
+      "draft": "Entwurf"
+    },
+    "downloadPdf": "PDF herunterladen",
+    "markAsPaid": "Als bezahlt markieren",
+    "sendReminder": "Erinnerung senden",
+    "noInvoices": "Keine Rechnungen gefunden",
+    "noInvoicesDesc": "Erstellen Sie Ihre erste Rechnung."
+  },
+  "team": {
+    "title": "Team",
+    "subtitle": "Verwalten Sie Teammitglieder und Berechtigungen",
+    "inviteMember": "Mitglied einladen",
+    "members": "Mitglieder",
+    "roles": "Rollen",
+    "permissions": "Berechtigungen",
+    "activityLog": "Aktivitätsprotokoll",
+    "table": {
+      "member": "Mitglied",
+      "role": "Rolle",
+      "status": "Status",
+      "joinedAt": "Beigetreten am",
+      "lastActive": "Zuletzt aktiv"
+    },
+    "roles": {
+      "admin": "Administrator",
+      "manager": "Manager",
+      "member": "Mitglied"
+    },
+    "invite": {
+      "title": "Mitglied einladen",
+      "emailLabel": "E-Mail-Adresse",
+      "emailPlaceholder": "kollege@unternehmen.de",
+      "roleLabel": "Rolle",
+      "sendInvite": "Einladung senden",
+      "inviteSent": "Einladung gesendet",
+      "inviteDesc": "Eine Einladungs-E-Mail wird an die angegebene Adresse gesendet."
+    },
+    "removeConfirm": {
+      "title": "Mitglied entfernen?",
+      "description": "Dieses Mitglied verliert den Zugriff auf das Dashboard."
+    }
+  },
+  "analytics": {
+    "title": "Analytik",
+    "subtitle": "Verstehen Sie Ihre Geschäftsentwicklung",
+    "revenue": "Umsatz",
+    "users": "Nutzer",
+    "traffic": "Traffic",
+    "conversion": "Konversion",
+    "devices": "Geräte",
+    "topPlans": "Top-Pläne",
+    "dateRange": "Zeitraum",
+    "compareWith": "Vergleichen mit",
+    "previousPeriod": "Vorherigem Zeitraum",
+    "vsPrevMonth": "vs. Vormonat",
+    "cards": {
+      "totalRevenue": "Gesamtumsatz",
+      "newUsers": "Neue Nutzer",
+      "activeUsers": "Aktive Nutzer",
+      "avgRevenuePerUser": "Ø Umsatz pro Nutzer",
+      "conversionRate": "Konversionsrate",
+      "churnRate": "Abwanderungsrate",
+      "organicTraffic": "Organischer Traffic",
+      "paidTraffic": "Bezahlter Traffic",
+      "directTraffic": "Direkter Traffic",
+      "referralTraffic": "Empfehlungs-Traffic"
+    },
+    "funnel": {
+      "title": "Konversionstrichter",
+      "visitors": "Besucher",
+      "signups": "Registrierungen",
+      "trials": "Testphasen",
+      "paid": "Zahlende Kunden",
+      "conversionRate": "Konversion"
+    }
+  },
+  "charts": {
+    "revenue": "Umsatz",
+    "target": "Ziel",
+    "previousMonth": "Vormonat",
+    "current": "Aktuell",
+    "revenueVsPrev": "Umsatz — aktuell vs. Vormonat",
+    "userGrowthTitle": "Nutzerwachstum",
+    "newUsers": "Neue Nutzer",
+    "churned": "Abgewandert",
+    "users": "Nutzer",
+    "trafficBySource": "Traffic nach Quelle",
+    "organic": "Organisch",
+    "paid": "Bezahlt",
+    "direct": "Direkt",
+    "referral": "Empfehlung"
+  },
+  "tasks": {
+    "title": "Aufgaben",
+    "subtitle": "Projekte und Aufgaben verwalten",
+    "addTask": "Aufgabe hinzufügen",
+    "editTask": "Aufgabe bearbeiten",
+    "deleteTask": "Aufgabe löschen",
+    "columns": {
+      "todo": "Zu erledigen",
+      "in_progress": "In Bearbeitung",
+      "review": "Überprüfung",
+      "done": "Erledigt"
+    },
+    "priority": {
+      "low": "Niedrig",
+      "medium": "Mittel",
+      "high": "Hoch",
+      "urgent": "Dringend"
+    },
+    "form": {
+      "title": "Aufgabentitel",
+      "titlePlaceholder": "Aufgabe beschreiben...",
+      "description": "Beschreibung",
+      "descriptionPlaceholder": "Weitere Details...",
+      "status": "Status",
+      "priority": "Priorität",
+      "assignee": "Zugewiesen an",
+      "dueDate": "Fälligkeitsdatum",
+      "errors": {
+        "titleRequired": "Titel ist erforderlich"
+      }
+    },
+    "noTasks": "Keine Aufgaben",
+    "noTasksDesc": "Fügen Sie Ihre erste Aufgabe hinzu."
+  },
+  "tickets": {
+    "title": "Support-Tickets",
+    "subtitle": "Kundenanfragen verwalten",
+    "newTicket": "Neues Ticket",
+    "openTickets": "Offene Tickets",
+    "inProgress": "In Bearbeitung",
+    "resolvedTickets": "Gelöste Tickets",
+    "totalTickets": "Gesamt",
+    "avgResponseTime": "Ø Antwortzeit",
+    "table": {
+      "id": "ID",
+      "title": "Betreff",
+      "customer": "Kunde",
+      "status": "Status",
+      "priority": "Priorität",
+      "assignee": "Bearbeiter",
+      "createdAt": "Erstellt am",
+      "updatedAt": "Aktualisiert am"
+    },
+    "status": {
+      "open": "Offen",
+      "in_progress": "In Bearbeitung",
+      "resolved": "Gelöst",
+      "closed": "Geschlossen"
+    },
+    "priority": {
+      "low": "Niedrig",
+      "medium": "Mittel",
+      "high": "Hoch",
+      "critical": "Kritisch"
+    },
+    "detail": {
+      "description": "Beschreibung",
+      "comments": "Kommentare",
+      "addComment": "Kommentar hinzufügen",
+      "commentPlaceholder": "Kommentar eingeben...",
+      "internalNote": "Interne Notiz",
+      "resolve": "Als gelöst markieren",
+      "close": "Ticket schließen",
+      "reopen": "Ticket wieder öffnen",
+      "assign": "Zuweisen",
+      "noComments": "Noch keine Kommentare"
+    },
+    "form": {
+      "title": "Betreff",
+      "titlePlaceholder": "Kurze Beschreibung des Problems...",
+      "description": "Beschreibung",
+      "descriptionPlaceholder": "Beschreiben Sie das Problem im Detail...",
+      "customer": "Kunde",
+      "selectCustomer": "Kunde auswählen",
+      "priority": "Priorität",
+      "selectPriority": "Priorität wählen"
+    },
+    "noTickets": "Keine Tickets gefunden",
+    "noTicketsDesc": "Alle Anfragen wurden bearbeitet."
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "subtitle": "Konto und Präferenzen verwalten",
+    "tabs": {
+      "profile": "Profil",
+      "company": "Unternehmen",
+      "billing": "Abrechnung",
+      "notifications": "Benachrichtigungen",
+      "security": "Sicherheit",
+      "language": "Sprache",
+      "theme": "Design",
+      "integrations": "Integrationen"
+    },
+    "profile": {
+      "title": "Profileinstellungen",
+      "fullName": "Vollständiger Name",
+      "email": "E-Mail-Adresse",
+      "phone": "Telefonnummer",
+      "bio": "Über mich",
+      "avatar": "Profilbild",
+      "uploadAvatar": "Bild hochladen",
+      "changeAvatar": "Bild ändern",
+      "saveChanges": "Änderungen speichern",
+      "profileUpdated": "Profil aktualisiert",
+      "avatarHint": "PNG, JPG bis 2 MB"
+    },
+    "company": {
+      "title": "Unternehmenseinstellungen",
+      "name": "Unternehmensname",
+      "website": "Webseite",
+      "industry": "Branche",
+      "size": "Unternehmensgröße",
+      "sizePlaceholder": "10-50 Mitarbeiter",
+      "address": "Adresse",
+      "logo": "Unternehmenslogo",
+      "uploadLogo": "Logo hochladen"
+    },
+    "notifications": {
+      "title": "Benachrichtigungseinstellungen",
+      "emailNotifications": "E-Mail-Benachrichtigungen",
+      "pushNotifications": "Push-Benachrichtigungen",
+      "newCustomer": "Neuer Kunde",
+      "paymentReceived": "Zahlung eingegangen",
+      "subscriptionCanceled": "Abonnement gekündigt",
+      "newTicket": "Neues Support-Ticket",
+      "teamInvite": "Team-Einladung",
+      "weeklyReport": "Wöchentlicher Bericht"
+    },
+    "security": {
+      "title": "Sicherheitseinstellungen",
+      "changePassword": "Passwort ändern",
+      "currentPassword": "Aktuelles Passwort",
+      "newPassword": "Neues Passwort",
+      "confirmPassword": "Passwort bestätigen",
+      "twoFactor": "Zwei-Faktor-Authentifizierung",
+      "twoFactorDesc": "Erhöhe die Sicherheit deines Kontos mit 2FA.",
+      "enable2FA": "2FA aktivieren",
+      "disable2FA": "2FA deaktivieren",
+      "sessions": "Aktive Sitzungen",
+      "revokeAll": "Alle Sitzungen beenden"
+    },
+    "language": {
+      "title": "Spracheinstellungen",
+      "selectLanguage": "Sprache auswählen",
+      "german": "Deutsch",
+      "english": "Englisch",
+      "languageChanged": "Sprache geändert"
+    },
+    "theme": {
+      "title": "Design-Einstellungen",
+      "light": "Hell",
+      "dark": "Dunkel",
+      "system": "Systemstandard",
+      "themeChanged": "Design geändert"
+    }
+  },
+  "notifications": {
+    "title": "Benachrichtigungen",
+    "markAllRead": "Alle als gelesen markieren",
+    "noNotifications": "Keine neuen Benachrichtigungen",
+    "viewAll": "Alle anzeigen"
+  },
+  "toasts": {
+    "customerUpdated": "Kunde aktualisiert",
+    "customerAdded": "Kunde hinzugefügt",
+    "taskAdded": "Aufgabe hinzugefügt",
+    "inviteSentTo": "Einladung gesendet an",
+    "saveError": "Fehler beim Speichern",
+    "ticketCreated": "Ticket erstellt",
+    "commentAdded": "Kommentar hinzugefügt",
+    "settingsSaved": "Einstellungen gespeichert",
+    "invoiceDownloaded": "Rechnung heruntergeladen"
+  },
+  "authLayout": {
+    "tagline": "Ihr Geschäft. Ihr Flow. Ihre Kontrolle.",
+    "description": "Verwalten Sie Kunden, Abonnements, Rechnungen und Ihr Team — alles in einer eleganten Plattform.",
+    "activeUsers": "Aktive Nutzer",
+    "processedRevenue": "Verarbeiteter Umsatz",
+    "supportTickets": "Support-Tickets",
+    "ticketsResolved": "99,1% gelöst",
+    "uptime": "Verfügbarkeit"
+  },
+  "demoBanner": {
+    "text": "Demo-Modus — Daten sind simuliert und werden nicht gespeichert.",
+    "explore": "Erkunden Sie frei!"
+  },
+  "errors": {
+    "generic": "Ein Fehler ist aufgetreten",
+    "notFound": "Nicht gefunden",
+    "unauthorized": "Nicht autorisiert",
+    "forbidden": "Zugriff verweigert",
+    "serverError": "Serverfehler",
+    "networkError": "Netzwerkfehler",
+    "tryAgain": "Bitte versuchen Sie es erneut"
+  },
+  "empty": {
+    "noData": "Keine Daten verfügbar",
+    "noDataDesc": "Es sind noch keine Daten vorhanden.",
+    "getStarted": "Loslegen"
+  }
+}
